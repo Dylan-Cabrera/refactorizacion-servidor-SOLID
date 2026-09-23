@@ -1,5 +1,5 @@
 import { IEmployeeRepository } from "../repositories/employee.repository.interface.js";
-import { CreateEmployeeDto, IEmployee } from "../types/empleyee.type.js";
+import { CreateEmployeeDto, IEmployee } from "../types/employee.type.js";
 import { ISalaryCalculator, SenioritySalaryCalculator } from "./salary-calculator.js";
 
 export class EmployeeService {
