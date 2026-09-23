@@ -1,4 +1,4 @@
-import { IEmployee, CreateEmployeeDto } from "../types/empleyee.type.js"
+import { IEmployee, CreateEmployeeDto } from "../types/employee.type.js"
 
 export interface IEmployeeRepository {
     create(data: CreateEmployeeDto & { finalSalary: number}): Promise<IEmployee>;

@@ -1,5 +1,5 @@
 import { EmployeeModel } from "../model/employee.model.js";
-import { CreateEmployeeDto, IEmployee } from "../types/empleyee.type.js";
+import { CreateEmployeeDto, IEmployee } from "../types/employee.type.js";
 import { IEmployeeRepository } from "./employee.repository.interface.js";
 
 export class MongoEmployeeRepository implements IEmployeeRepository {
