@@ -1,4 +1,4 @@
-import express, { Application } from "express";
+import { Application } from "express";
 import "dotenv/config";
 import { connectDb } from "./config/database.js";
 import { app } from "./app.js";
@@ -13,7 +13,7 @@ class Server {
   }
 
   private async conectarBaseDatos(): Promise<void> {
-    connectDb()
+    await connectDb();
   }
 
   public async start(): Promise<void> {
